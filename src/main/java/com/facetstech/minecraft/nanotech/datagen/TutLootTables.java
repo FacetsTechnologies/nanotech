@@ -3,8 +3,8 @@ package com.facetstech.minecraft.nanotech.datagen;
 
 import net.minecraft.data.DataGenerator;
 
+import static com.facetstech.minecraft.nanotech.block.BlockRegistrar.*;
 import static com.facetstech.minecraft.nanotech.item.ModItemRegistrar.RAW_MYSTERIOUS_CHUNK;
-import static com.facetstech.minecraft.nanotech.setup.Registrar.*;
 
 public class TutLootTables extends BaseLootTableProvider {
 

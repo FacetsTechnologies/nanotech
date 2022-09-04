@@ -7,12 +7,12 @@ import net.minecraft.tags.BlockTags;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.ExistingFileHelper;
 
-import static com.facetstech.minecraft.nanotech.setup.Registrar.*;
+import static com.facetstech.minecraft.nanotech.block.BlockRegistrar.*;
 
 public class TutBlockTags extends BlockTagsProvider {
 
     public TutBlockTags(DataGenerator generator, ExistingFileHelper helper) {
-        super(generator, NanotechMod.MODID, helper);
+        super(generator, NanotechMod.MOD_ID, helper);
     }
 
     @Override

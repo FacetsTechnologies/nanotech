@@ -13,7 +13,7 @@ import static com.facetstech.minecraft.nanotech.item.ModItemRegistrar.*;
 public class TutItemTags extends ItemTagsProvider {
 
     public TutItemTags(DataGenerator generator, BlockTagsProvider blockTags, ExistingFileHelper helper) {
-        super(generator, blockTags, NanotechMod.MODID, helper);
+        super(generator, blockTags, NanotechMod.MOD_ID, helper);
     }
 
     @Override

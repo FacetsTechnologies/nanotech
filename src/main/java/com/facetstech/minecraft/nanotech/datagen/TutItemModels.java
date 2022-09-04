@@ -10,7 +10,7 @@ import static com.facetstech.minecraft.nanotech.item.ModItemRegistrar.*;
 public class TutItemModels extends ItemModelProvider {
 
     public TutItemModels(DataGenerator generator, ExistingFileHelper existingFileHelper) {
-        super(generator, NanotechMod.MODID, existingFileHelper);
+        super(generator, NanotechMod.MOD_ID, existingFileHelper);
     }
 
     @Override

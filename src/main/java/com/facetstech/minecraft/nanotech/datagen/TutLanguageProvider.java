@@ -4,13 +4,14 @@ import com.facetstech.minecraft.nanotech.NanotechMod;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.LanguageProvider;
 
-import static com.facetstech.minecraft.nanotech.setup.ModSetup.TAB_NAME;
-import static com.facetstech.minecraft.nanotech.setup.Registrar.*;
+import static com.facetstech.minecraft.nanotech.block.BlockRegistrar.*;
+import static com.facetstech.minecraft.nanotech.setup.CreativeModeNanotechTab.TAB_NAME;
+
 
 public class TutLanguageProvider extends LanguageProvider {
 
     public TutLanguageProvider(DataGenerator gen, String locale) {
-        super(gen, NanotechMod.MODID, locale);
+        super(gen, NanotechMod.MOD_ID, locale);
     }
 
     @Override

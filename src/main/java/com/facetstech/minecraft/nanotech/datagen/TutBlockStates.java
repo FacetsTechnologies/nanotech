@@ -6,12 +6,12 @@ import net.minecraft.data.DataGenerator;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 
-import static com.facetstech.minecraft.nanotech.setup.Registrar.*;
+import static com.facetstech.minecraft.nanotech.block.BlockRegistrar.*;
 
 public class TutBlockStates extends BlockStateProvider {
 
     public TutBlockStates(DataGenerator gen, ExistingFileHelper helper) {
-        super(gen, NanotechMod.MODID, helper);
+        super(gen, NanotechMod.MOD_ID, helper);
     }
 
     @Override

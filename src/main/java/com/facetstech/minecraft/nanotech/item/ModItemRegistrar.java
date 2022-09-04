@@ -9,11 +9,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-import static com.facetstech.minecraft.nanotech.NanotechMod.MODID;
-import static com.facetstech.minecraft.nanotech.setup.Registrar.*;
+import static com.facetstech.minecraft.nanotech.NanotechMod.MOD_ID;
+import static com.facetstech.minecraft.nanotech.block.BlockRegistrar.*;
 
 public class ModItemRegistrar {
-    private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
+    private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MOD_ID);
 
 
     public static final RegistryObject<Item> ALLOY_KRATAREN = ITEMS.register(KratarenAlloyItem.LANG_KEY,() -> new KratarenAlloyItem());
